@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> <!-- Cabeçalho, informações para navegador e buscadores -->
+        <meta charset="utf-8">
+        <link rel="icon " type="img/png" href="/img/gay.png">
+        <title>wiki Town</title>
+
+    </head>
+    <body> <!-- Corpo do site, o que o usuario vizualiza -->
+    <main>
+        <h2>Formulário</h2>
+        <ul>
+            <form enctype="multipart/form-data">
+            <li>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" required placeholder="Coloque seu nome completo" autofocus minlength="2">
+            </li>
+            <li>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required placeholder="meuemail@gmail.com" minlength="5">
+            </li>
+            <li>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(81)999xx-56xx" minlength="9">
+            </li>
+            <li>
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal </option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </li>
+            <li>
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade" id="cidade" placeholder="Cidade de onde voce esta escrevendo" minlength="3">
+            </li>
+            <li>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </li>
+            <li>
+                <label for="Local-foto">Local da Foto: </label>
+                <input type="text" name="Local-foto" id="Local-foto" placeholder="informe o local da cidade de Palmares onde foi tirada a Foto">
+            <li>
+                <label for="foto">Envie sua Foto: </label>
+                <input type="file" name="foto" id="foto"/>
+            </li>
+            <li>
+                <!--- <input type="radio" name="opcao-contato" id="opcao-contato-w > --->
+                <input type="checkbox" name="opcao-contato" id="opcao-contato-w" >
+                <label for="opcao-contato"> Contato por whatsapp</label>
+                <!--- <input type="radio" name="opcao-contato" id="opcao-contato-e"value="email" checked> --->
+                <input type="checkbox" name="opcao-contato" id="opcao-contato-e" value="email" checked>
+                <label for="opcao-contato" >Contato por E-mail</label>
+            </li>
+
+            <li>
+                <button type="submit">Enviar: </button>
+            </li>
+            </form>
+        </ul>
+
+        <h2>Saiba Mais...</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>  
+                    <li><a href="História.html">História</a></li> 
+                    <li><a href="informações_Geográficas.html">informações Geográficas</a></li>
+                    <li><a href="pontos_Turisticos.html">Pontos Turisticos</a></li>
+                    <li><a href="serviços.html">Serviços</a></li>
+                    <li><a href="Album_de_Fotos.html">Album de Fotos</a></li>
+                </ul>
+            </nav>
+
+    </main>
+
+    <footer>
+        <p>Contato: lwls@discente.ifpe.edu.br</p>
+    </footer>
+    </body>
+
+</html>
