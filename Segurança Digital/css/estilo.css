@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+/* Resentando o css */
+*{
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço interno */
+}
+
+body{
+    background-color: rgb(0, 0, 0); /* Muda a cor do fundo */
+}
+header, main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.titulo-principal{
+    color: #610909; /* Cor do texto */
+    font-weight: bold; /* Define negrito ou não do texto */
+    font-size: 4em; /* Tamanho da fonte. 4x mais que o padrão */
+    font-family: 'Bebas Neue', sans-serif; /* Define a fonte */
+    text-shadow: 4px 3px 4px #361708;
+    line-height: 4px; /* Espaço entre linhas */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-style: italic; /* Texto em itálico */
+    font-size: 17px; /* Tamanho da fonte. Em px fica fixo */
+    text-align: center; /* Centraliza o texto */
+    margin: 15px auto;
+    color: #665959;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a{
+    text-decoration: none; /* Desativa/ ativa o sublinhado dos links */
+    color: #610909;
+    text-shadow: 1px 1px 1px #610909;
+    cursor: pointer;
+}
+
+.msg-erro{
+    visibility: hidden; /* Oculta o texto */
+    line-height: 3px;
+}
+
+.menu{
+    list-style: none; /* Desativa as imagens dos marcadores */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 1px 1px 1px #610909;
+    display: flex; /* Coloca os elementos filhos inline (em linha) */
+    justify-content: space-around; /* Alinhamento dos elemementos filhos */
+}
+
+.formulario{
+    list-style: none; 
+    line-height: 25px;
+    text-align: center ; /* Centraliza o texto */
+}
+
+.album-fotos{
+    width: 100vw; /* Largura */
+    height: auto; /* Altura: automática */
+    margin: 15px auto;
+    border-width: 1px; /* Largura da borda */
+    border-style: double; /* Estilo da linha da borda */
+    /*border-color: #610909; /* Cor da borda */
+    /*border-radius: 10px; /* Arredonda a borda */
+    justify-content: center;
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 800px;
+    margin: 0 auto;
+    line-height: 100px; 
+    color: #665959;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Formatação do formulário */
+input[type=text],
+input[type=email],
+select{
+    background-color: rgb(224, 221, 216);
+    border: 0; /* Desativa a borda padrão */
+    width: 270px; /*Largura*/
+    padding: 10px; /*Espaço interno ao redor do conteúdo*/
+    border-radius: 10px; /*Arredondamento das caixas*/
+    margin-bottom: 20px; /*Espaço externo ao redor do elemento*/
+    transition: background-color 1s ease;
+}
+
+input[type=email]:focus,
+input[type=text]:focus{
+    background-color: #665959;
+    color: white;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    text-align: left; /*Alinhamento a esquerda*/
+    margin: 0px; /*Margem zerada para ficar colada aos inputs*/
+    display: block; /*Bloqueia a linha para ser o único elemento*/
+}
+
+input[type=file]{
+    background-color: wheat;
+    display: none; /*Tornar oculto*/
+}
+
+button{
+    background-color: rgb(224, 213, 198);
+    color: rgb(73, 57, 57);
+    font-size: 1.2em;
+    width: 200px;
+    padding: 4px;
+    margin: 20px;
+    border-radius: 15px;
+    transition: background-color 1s ease; /*Transição cor de fundo*/
+}
+
+/*Botão no estado de passar o mouse por cima*/
+button:hover{
+    background-color: #665959; /*Novo valor da cor de fundo ao passar o mouse*/
+    transform: scale(1.1);
+}
+
+p{
+    color: #ffffff; /* Cor do texto */
+}
+
+b{
+    font-weight: 900;
+    color: #665959 /* Cor do texto */
+}
+
+h3{
+    color: #ffffff /* Cor do texto */
+}
